@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Article
+% LaTeX Template
+% Version 2.2 (2020-10-22)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) 
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[fleqn,10pt]{SelfArx} % Document font size and equations flushed left
+
+\usepackage[english]{babel} % Specify a different language here - english by default
+\usepackage{fixltx2e}
+\usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\usepackage{amsthm}
+\usepackage{mdframed}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{epigraph}
+\usepackage{tcolorbox}
+\usepackage{array}
+\usepackage{adjustbox}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{soul}
+%----------------------------------------------------------------------------------------
+%	COLUMNS
+%----------------------------------------------------------------------------------------
+
+\setlength{\columnsep}{0.55cm} % Distance between the two columns of text
+\setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
+
+%----------------------------------------------------------------------------------------
+%	COLORS
+%----------------------------------------------------------------------------------------
+
+\definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+
+%----------------------------------------------------------------------------------------
+%	HYPERLINKS
+%----------------------------------------------------------------------------------------
+
+\usepackage{hyperref} % Required for hyperlinks
+
+\hypersetup{
+	hidelinks,
+	colorlinks,
+	breaklinks=true,
+	urlcolor=color2,
+	citecolor=color1,
+	linkcolor=color1,
+	bookmarksopen=false,
+	pdftitle={Title},
+	pdfauthor={Author},
+}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\PaperTitle{Basics of Derivative Pricing and Valuation} % Article title
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Output the title and abstract box
+
+\tableofcontents % Output the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{table}[]
+	\centering
+	\resizebox{0.5\textwidth}{!}{%
+		\begin{tabular}{|l|l|l|l|l|l|l|}
+			\hline
+			\multirow{\textbf{12a}} &
+			\multicolumn{6}{l|}{\multirow{\begin{tabular}[c]{@{}l@{}}Calculate and interpret price, income and cross-price \\ elasticities of demand and describe factors that affect \\ each measure\end{tabular}}} \\
+			& \multicolumn{6}{l|}{}                                                                                                                  \\ \hline
+			\textbf{12b} & \multicolumn{6}{l|}{Compare substitution and income effects}                                                                           \\ \hline
+			\textbf{12c} & \multicolumn{6}{l|}{Distinguish between normal goods and inferior goods}                                                               \\ \hline
+			\textbf{12d} & \multicolumn{6}{l|}{\begin{tabular}[c]{@{}l@{}}Describe the phenomenon of diminishing marginal \\ returns\end{tabular}}                \\ \hline
+			\textbf{12e} & \multicolumn{6}{l|}{\begin{tabular}[c]{@{}l@{}}Determine and interpret breakeven and shutdown \\ points of production\end{tabular}}    \\ \hline
+			\textbf{12f} & \multicolumn{6}{l|}{\begin{tabular}[c]{@{}l@{}}Describe how economies of scale and diseconomies \\ of scale affect costs\end{tabular}} \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+\newpage
+\begin{itemize}
+	\item What are the defining characteristerics of derivatives?
+	\item What purposes do derivatives serve for financial market participants?
+	\item What are forward and futures contracts? In what ways are they alike and in what ways are they different?
+	\item What are swaps?
+	\item What are call and put options and how do they differ from forwards, futures and swaps?
+	\item What are credit derivatives and what are the various types of credit derivatives?
+	\item What are the benefits of derivatives?
+	\item What are some criticisms of derivatives and to what extend are they well founded?
+	\item What is arbitrage and what role does it play in a well-functioning financial market?
+\end{itemize}
+
+\newpage
+\section{Derivatives: Definitions and Uses}
+
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+\phantomsection
+\bibliographystyle{authordate1}
+\bibliography{sample}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

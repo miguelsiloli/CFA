@@ -1,0 +1,11 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: article_3.aux
+The style file: authordate1.bst
+Database file #1: sample.bib
+I was expecting a `,' or a `}'---line 1 of file sample.bib
+ : @book{system 
+ :              of national accounts_1993, place={Brussels/Luxembourg}, title={System of national accounts}, publisher={Commission of the European Communities, International Monetary Fund, Organisation for Economic Co-operation and Development, United Nations World Bank}, year={1993}}
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "systemofnationalaccounts_1993"
+Warning--to sort, need author, editor, or key in cfa_program_curriculum_2019
+Warning--empty author and editor in cfa_program_curriculum_2019
+(There was 1 error message)
